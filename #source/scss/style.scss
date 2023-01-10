@@ -1,3 +1,79 @@
+// ОНУЛЕННЯ
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
 body {
-   color: red;
+	height: 100%;
+	line-height: 1;
+	background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: 'Oxanium', cursive;
+   font-family: 'Work Sans', sans-serif;
+}
+
+//-----------------------------------------------------------------
+.wrapper {
+   border: 1px solid green;
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+//-----------------------------------------------------------------
+._container{
+   border: 1px solid blue;
+   max-width: 1470px;
+   padding: 0 15px;
+   margin: 0px auto;
+   box-sizing: border-box;
+}
+//---ШАПКА-----------------------------------------------------------------
+.header {
+}
+.header__container {
+}
+._container {
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.menu__batton {
 }
